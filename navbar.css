@@ -1,0 +1,39 @@
+/* removing padding,margin and global styling  */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav{
+    background: black;
+    padding: 1rem;
+}
+/* using css to style the navbar */
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: o;
+    display: flex;
+    justify-content: space-around;
+}
+nav ul li{
+    display: inline;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    display: block;
+}
+nav ul li a:hover{
+    background-color: #575757;
+    border-radius: 5px;
+}
+#showman{
+    width: 100%;
+    min-height: 100vh;
+    background: url(./IMAGE/pexels-karola-g-4194854.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}

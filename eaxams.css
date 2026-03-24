@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+/* removing padding,margin and global styling  */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html{
+    font-family: raleway;
+    font-weight: 100px;
+    font-style: normal;
+    font-optical-sizing: auto;
+
+}
+i{
+    font-size: 25px;
+    color: rgb(50, 50, 245);
+
+}
+a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.6);
+}
+span{
+    color: rgb(58, 58, 205);
+}
+/* using css to style the navbar */
+#head-nav{
+    background-color: rgb(255, 255, 255);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+#navie{
+    min-height: 9vh;
+    width: 75%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.list{
+    display: flex;
+    list-style: none;
+    flex: 2 1 26rem;
+    justify-content: space-around;
+    padding-right: 2rem;
+}
+.head{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 8rem;
+    color: rgb(242, 5, 5);
+}
+.pur{
+    flex: 1 1 8rem;
+    border: none;
+    border-radius: 3px;
+    height: 2rem;
+    width: 60%;
+    background-color: rgb(104, 104, 236);
+    color: white;
+    
+}
+/* creating a section */
+#showman{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(81, 112, 148, 0.737), transparent);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contChild{
+    width: 60%;
+}
+.head2{
+    font-size: 32px;
+    text-align: center;
+}
+.par{
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    padding: 1rem 0rem;
+}
+.ex{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding: 1rem 10rem;
+    width: 60%;
+    height: 5rem;
+    margin: auto;
+    
+    
+    
+}
+.ex1{
+    border: none;
+    border-radius: 3px;
+    color: white;
+    
+    background-color: rgba(255, 0, 0, 0.678);
+    width: 10rem;
+    height: 2rem;
+    flex: 1 1 14rem;
+}
+.ex2{
+    border: none;
+    border-radius: 3px;
+    height: 2rem;
+    width: 10rem;
+    
+    color: rgb(45, 45, 141);
+    flex: 1 1 14rem;
+
+}
+/* creating a card */
+#cup{
+    display: flex;
+    padding: 10rem 5rem;
+    gap: 5px;
+    flex-wrap: wrap;
+
+
+h3{
+    padding: 0.3rem 0rem;
+}
+
+}
+.box{
+    flex: 1 1 11rem;
+    height: 193px;
+    padding: 1.5rem 1rem 1rem 1rem;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.418);
+    background-color: rgba(39, 127, 175, 0.326);
+    transition: all 1s;
+}
+.box:hover{
+    background-color: rgba(46, 143, 122, 0.571);
+    transform: scale(1.02);
+}
+/* creating a footer */
+#foot{
+    background-color: rgba(128, 128, 128, 0.735);
+}
+.parent{
+    width: 80%;
+    margin: auto;
+    padding: 1rem 0rem;
+}
+.child1{
+    display: flex;
+    padding: 1rem 0rem;
+    flex-wrap: wrap;
+    h2{
+        flex: 1 1 14rem;
+        font-size: 25px;
+    }
+    .but{ u
+        button{
+        padding: 0.6rem 1.6rem;
+        border: none;
+        border-radius: 3px;
+        background-color: rgba(255, 0, 0, 0.678);
+        flex: 1 1 14rem;
+         }
+    }
+
+}
+.child2{
+    display: flex;
+}
+.boxx{
+    flex: 1 1 12rem;
+    
+    h3{
+        font-size: 16px;
+    }
+    p,li{
+        font-size: 10px;
+    }
+    ul{
+        list-style: none;
+        font-size: 11px;
+    }
+}
+
+
+
+
+
